@@ -9,7 +9,6 @@ mkdir -p "$path/$project_name"
 # Segurança no controle de fluxo: '|| exit' para evitar que o script continue caso o cd falhe.
 cd "$path/$project_name" || exit
 
-
 touch index.html
 touch style.css
 touch script.js
